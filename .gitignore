@@ -1,0 +1,19 @@
+# Xcode
+xcuserdata/
+*.xcuserstate
+*.xcscmblueprint
+DerivedData/
+build/
+*.moved-aside
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+.swiftpm/
+Package.resolved
+
+# macOS
+.DS_Store
+
+# Firmware: credenciales Wi‑Fi locales (copia config.example.h -> config.h)
+firmware/esp32_limits/config.h

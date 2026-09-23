@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Personal Limits — Tus límites de Claude y Codex, de un vistazo</title>
+  <meta name="description" content="Personal Limits muestra en iPhone, iPad y Apple Watch los límites de sesión y semanales de Claude Code y Codex, con widgets y cuenta atrás. Y los enciende en tu escritorio con un ESP32 y NeoPixels.">
+  <meta property="og:title" content="Personal Limits — sabe cuánto te queda">
+  <meta property="og:description" content="Límites de Claude Code y Codex en tu iPhone, iPad, Apple Watch y en LEDs de escritorio.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="./"><span class="logo"></span>Personal Limits</a>
+    <nav class="nav-links">
+      <a href="#caracteristicas">Características</a>
+      <a href="#widgets">Widgets</a>
+      <a href="#esp32">ESP32</a>
+      <a href="#privacidad">Privacidad</a>
+      <a href="#faq">FAQ</a>
+      <a class="btn soon" href="#descarga">Próximamente en App Store</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <span class="eyebrow">Para quien vive en Claude Code y Codex</span>
+        <h1>Sabe cuánto te queda.<br>Antes de que te frene.</h1>
+        <p class="lead">Personal Limits muestra los límites de sesión y semanales de <strong>Claude Code</strong> y <strong>Codex</strong> en tu iPhone, iPad y Apple Watch, con cuenta atrás hasta el reinicio. Sin cuentas, sin servidores intermedios. Y si quieres, lo ves brillar en tu escritorio.</p>
+        <div class="btn-row" id="descarga">
+          <a class="btn primary soon" href="#faq">Próximamente en la App Store</a>
+          <a class="btn" href="https://github.com/ericmargay/Personal_Limits">Código en GitHub</a>
+        </div>
+        <div class="platforms">
+          <span>📱 iPhone</span><span>📟 iPad</span><span>⌚️ Apple Watch</span><span>🧩 Widgets</span><span>💡 ESP32 + NeoPixels</span>
+        </div>
+      </div>
+
+      <div class="phone-wrap">
+        <div class="phone"><div class="screen">
+          <div class="island"></div>
+          <h4>Límites</h4>
+          <div class="card">
+            <div class="card-head"><span class="avatar claude">✦</span><div><b>Claude</b><small>Anthropic · tu@correo.com</small></div><span class="pill claude">Max</span></div>
+            <div class="win"><div class="win-row"><b>Sesión</b><small>ventana de 5 h</small><span class="pct green">42%</span></div><div class="bar"><i class="green" style="width:42%"></i></div><div class="reset">↻ Se reinicia en 2 h y 12 min</div></div>
+            <div class="win"><div class="win-row"><b>Semana</b><small>7 días, todos los modelos</small><span class="pct orange">78%</span></div><div class="bar"><i class="orange" style="width:78%"></i></div><div class="reset">↻ Se reinicia en 2 días y 23 h</div></div>
+          </div>
+          <div class="card">
+            <div class="card-head"><span class="avatar codex">&gt;_</span><div><b>Codex</b><small>OpenAI · tu@correo.com</small></div><span class="pill codex">Plus</span></div>
+            <div class="win"><div class="win-row"><b>Sesión</b><small>ventana de 5 h</small><span class="pct green">7%</span></div><div class="bar"><i class="green" style="width:7%"></i></div><div class="reset">↻ Se reinicia en 3 h y 59 min</div></div>
+            <div class="win"><div class="win-row"><b>Semana</b><small>7 días</small><span class="pct red">93%</span></div><div class="bar"><i class="red" style="width:93%"></i></div><div class="reset">↻ Se reinicia en 4 días y 23 h</div></div>
+          </div>
+          <div class="ad">anuncio</div>
+        </div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="proveedores">
+    <div class="wrap">
+      <h2>Hecho para las herramientas que ya usas</h2>
+      <p class="lead">Lee exactamente lo que ves con <code>/usage</code> en Claude Code o en Codex CLI, pero en el bolsillo.</p>
+      <div class="providers" style="margin-top:28px">
+        <div class="provider"><span class="dot" style="background:var(--claude)"></span><div><h3>Claude Code</h3><p>Planes Pro y Max. Ventana de sesión (5 h), semanal y semanal por modelo cuando existe.</p></div></div>
+        <div class="provider"><span class="dot" style="background:var(--codex)"></span><div><h3>Codex</h3><p>ChatGPT Plus, Pro y Team. Ventana de sesión y semanal, con el tipo de plan.</p></div></div>
+        <div class="provider"><span class="dot" style="background:var(--accent)"></span><div><h3>Más en camino</h3><p>La app está diseñada para añadir proveedores. Pide el tuyo en GitHub.</p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="caracteristicas" style="background:var(--bg-2)">
+    <div class="wrap">
+      <h2>Mira, no abras</h2>
+      <p class="lead">La información vive donde ya miras: pantalla de inicio, pantalla bloqueada y muñeca.</p>
+      <div class="grid" style="margin-top:28px">
+        <div class="feature"><div class="icon">⏱️</div><h3>Cuenta atrás en vivo</h3><p>Cada ventana muestra cuándo se reinicia. El reloj avanza en tiempo real incluso en el widget.</p></div>
+        <div class="feature"><div class="icon">🔄</div><h3>Se actualiza sola</h3><p>Los widgets consultan tus límites cada 15–30 minutos por su cuenta, sin abrir la app.</p></div>
+        <div class="feature"><div class="icon">⌚️</div><h3>Apple Watch</h3><p>App y complicaciones (circular, esquina, rectangular) sincronizadas desde el iPhone.</p></div>
+        <div class="feature"><div class="icon">📟</div><h3>iPad</h3><p>Misma app, adaptada a pantallas grandes y a todas las orientaciones. Widgets grandes incluidos.</p></div>
+        <div class="feature"><div class="icon">🎨</div><h3>Colores que hablan</h3><p>Verde, amarillo, naranja y rojo según lo consumido. Sabes de un vistazo si puedes seguir.</p></div>
+        <div class="feature"><div class="icon">🔒</div><h3>Solo lectura</h3><p>El token que guarda la app no puede enviar prompts ni gastar tu cuota. Solo consulta.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="widgets">
+    <div class="wrap">
+      <h2>Widgets para cada rincón</h2>
+      <p class="lead">Pequeño, mediano y grande en la pantalla de inicio; circular, rectangular e inline en la pantalla bloqueada. Elige mostrar todos los proveedores o solo uno.</p>
+      <div class="widgets" style="margin-top:28px">
+        <div>
+          <div class="widget">
+            <h5 class="claude">✦ Claude <small>Max</small></h5>
+            <div class="row"><div class="ring"><span>42%</span></div><div><b style="font-size:.8rem">Sesión</b><br><small>2:12:40</small></div></div>
+            <div class="win" style="margin-top:10px"><div class="win-row" style="font-size:.72rem"><b>Semana</b><span class="pct orange">78%</span></div><div class="bar"><i class="orange" style="width:78%"></i></div></div>
+          </div>
+          <div class="caption">Pequeño · un proveedor</div>
+        </div>
+        <div>
+          <div class="widget">
+            <h5 class="claude">✦ Claude</h5>
+            <div class="win"><div class="win-row" style="font-size:.72rem"><b>Sesión</b><span class="pct green">42%</span></div><div class="bar"><i class="green" style="width:42%"></i></div></div>
+            <h5 class="codex" style="margin-top:12px">&gt;_ Codex</h5>
+            <div class="win"><div class="win-row" style="font-size:.72rem"><b>Sesión</b><span class="pct green">7%</span></div><div class="bar"><i class="green" style="width:7%"></i></div></div>
+          </div>
+          <div class="caption">Pequeño · todos</div>
+        </div>
+        <div>
+          <div class="widget dark">
+            <div class="win"><div class="win-row" style="font-size:.75rem"><b>Claude</b><span style="margin-left:6px">42%</span><small style="margin-left:6px">· semana 78%</small></div><div class="bar"><i style="width:42%;background:#fff"></i></div></div>
+            <div class="win"><div class="win-row" style="font-size:.75rem"><b>Codex</b><span style="margin-left:6px">7%</span><small style="margin-left:6px">· semana 93%</small></div><div class="bar"><i style="width:7%;background:#fff"></i></div></div>
+          </div>
+          <div class="caption">Pantalla bloqueada · rectangular</div>
+        </div>
+        <div>
+          <div class="widget dark" style="display:grid;place-items:center;aspect-ratio:1;border-radius:50%;width:120px;margin:0 auto">
+            <div class="ring" style="background:conic-gradient(#fff 0 42%, rgba(255,255,255,.2) 42% 100%);width:80px;height:80px"><span style="color:#fff">42</span></div>
+          </div>
+          <div class="caption">Pantalla bloqueada / Watch · circular</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="esp32" style="background:var(--bg-2)">
+    <div class="wrap esp-grid">
+      <div>
+        <span class="eyebrow">Lo que nadie más hace</span>
+        <h2>Tu uso, en el mundo físico</h2>
+        <p class="lead">Un anillo de NeoPixels en el escritorio que se llena a medida que gastas la sesión. Sin mirar el móvil: si está en rojo, toca esperar.</p>
+        <ul class="check">
+          <li>El iPhone envía los porcentajes por Wi‑Fi a un ESP32 cada vez que actualiza.</li>
+          <li>Segmentos configurables: sesión y semana de cada proveedor.</li>
+          <li>Se atenúa y respira si los datos son viejos; la app lo detecta sola por Bonjour.</li>
+          <li>Firmware abierto en el repositorio para montarlo tú mismo.</li>
+        </ul>
+        <div class="btn-row">
+          <a class="btn etsy" href="https://www.etsy.com/shop/PersonalLimits">🛍️ Pide el módulo ya montado en Etsy</a>
+          <a class="btn" href="https://github.com/ericmargay/Personal_Limits/tree/master/firmware">Montarlo tú mismo</a>
+        </div>
+        <p class="muted" style="font-size:.85rem;margin-top:12px">El módulo de Etsy incluye ESP32, anillo de 16 NeoPixels, carcasa y el firmware cargado: lo enchufas, le das tu Wi‑Fi y aparece en la app.</p>
+      </div>
+      <div>
+        <div class="ledring">
+          <span class="led on" style="--i:0;--c:var(--green)"></span><span class="led on" style="--i:1;--c:var(--green)"></span><span class="led on" style="--i:2;--c:var(--green)"></span><span class="led dim" style="--i:3"></span>
+          <span class="led on" style="--i:4;--c:var(--orange)"></span><span class="led on" style="--i:5;--c:var(--orange)"></span><span class="led on" style="--i:6;--c:var(--orange)"></span><span class="led on" style="--i:7;--c:var(--orange)"></span>
+          <span class="led on" style="--i:8;--c:var(--green)"></span><span class="led dim" style="--i:9"></span><span class="led dim" style="--i:10"></span><span class="led dim" style="--i:11"></span>
+          <span class="led on" style="--i:12;--c:var(--red)"></span><span class="led on" style="--i:13;--c:var(--red)"></span><span class="led on" style="--i:14;--c:var(--red)"></span><span class="led on" style="--i:15;--c:var(--red)"></span>
+          <div class="label"><div><b>ESP32 + NeoPixels</b>Claude sesión · semana<br>Codex sesión · semana</div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="precio">
+    <div class="wrap">
+      <div class="price">
+        <div>
+          <span class="eyebrow">Precio</span>
+          <div class="big">Gratis</div>
+          <p class="muted">Sin suscripción, sin versión Pro, sin cuenta. Un banner discreto al pie de la pantalla principal mantiene el proyecto vivo. En el widget y en el Watch no hay anuncios.</p>
+        </div>
+        <div>
+          <ul class="check">
+            <li>Todos los proveedores y todos los widgets incluidos.</li>
+            <li>Apple Watch e iPad incluidos.</li>
+            <li>Integración ESP32 incluida (el hardware es opcional).</li>
+            <li>Puedes rechazar los anuncios personalizados y seguir usando todo.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="privacidad" style="background:var(--bg-2)">
+    <div class="wrap">
+      <h2>Tus cuentas siguen siendo tuyas</h2>
+      <p class="lead">Personal Limits no tiene servidores. Inicias sesión con el flujo oficial de cada proveedor en Safari, el token se guarda cifrado en el llavero de tu dispositivo y las lecturas se quedan en él.</p>
+      <div style="margin-top:24px;overflow-x:auto">
+        <table>
+          <thead><tr><th>Proveedor</th><th>Permisos (scopes) que pide la app</th><th>Lo que NO puede hacer</th></tr></thead>
+          <tbody>
+            <tr><td>Claude Code</td><td><code>user:profile</code> (el flujo exige solicitar <code>org:create_api_key</code>, pero Anthropic no lo concede)</td><td>Enviar prompts, crear claves API, gastar tu cuota</td></tr>
+            <tr><td>Codex</td><td><code>openid profile email offline_access api.connectors.read api.connectors.invoke</code></td><td>Chatear con tu cuenta ni cambiar nada en ella</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="muted" style="margin-top:18px">Los anuncios los sirve Google AdMob. Puedes gestionar el consentimiento desde Ajustes de la app. Detalles completos en la <a href="privacy.html">política de privacidad</a>.</p>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap" style="max-width:820px">
+      <h2>Preguntas frecuentes</h2>
+      <details open><summary>¿Necesito crear una cuenta en Personal Limits?</summary><p>No. Solo inicias sesión con tu cuenta de Claude o de ChatGPT a través de su propio flujo de autenticación. Nosotros no vemos ni guardamos tus credenciales.</p></details>
+      <details><summary>¿Puede la app gastar mi cuota o enviar mensajes en mi nombre?</summary><p>No. El token de Claude queda limitado al permiso <code>user:profile</code>, que solo permite leer el uso. El de Codex tampoco tiene acceso a las conversaciones.</p></details>
+      <details><summary>¿Cada cuánto se actualizan los widgets?</summary><p>Piden una actualización cada 15 minutos; iOS concede a un widget visible unas 40–70 recargas al día, así que en la práctica cada 15–30 min. La app también actualiza en segundo plano y cada vez que la abres.</p></details>
+      <details><summary>¿Funciona con claves API (pago por uso)?</summary><p>Todavía no. La app está pensada para los límites de las suscripciones (Pro/Max de Claude, Plus/Pro de ChatGPT).</p></details>
+      <details><summary>¿Necesito el módulo ESP32?</summary><p>No, es totalmente opcional. La app funciona igual sin él. Si lo quieres, puedes montarlo con el firmware abierto o pedirlo ya montado en Etsy.</p></details>
+      <details><summary>¿Está afiliada a Anthropic u OpenAI?</summary><p>No. Personal Limits es un proyecto independiente. Usa endpoints no documentados que los propios CLIs utilizan y que podrían cambiar sin aviso.</p></details>
+      <details><summary>¿Por qué anuncios y no una versión Pro?</summary><p>Porque queremos que todas las funciones estén disponibles para todo el mundo. Un banner en la pantalla principal cubre los costes; el widget y el Watch quedan limpios.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="brand"><span class="logo"></span>Personal Limits</div>
+      <div class="foot-links">
+        <a href="#caracteristicas">Características</a>
+        <a href="#widgets">Widgets</a>
+        <a href="#esp32">ESP32</a>
+        <a href="support.html">Soporte</a>
+        <a href="privacy.html">Privacidad</a>
+        <a href="terms.html">Términos</a>
+        <a href="https://github.com/ericmargay/Personal_Limits">GitHub</a>
+      </div>
+    </div>
+    <p class="legal">© 2026 Personal Limits. Claude y Claude Code son marcas de Anthropic PBC; ChatGPT y Codex son marcas de OpenAI. Apple, iPhone, iPad y Apple Watch son marcas de Apple Inc. Personal Limits no está afiliada a ninguna de ellas.</p>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Soporte — Personal Limits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="./"><span class="logo"></span>Personal Limits</a><nav class="nav-links"><a href="privacy.html">Privacidad</a><a href="terms.html">Términos</a></nav></div></header>
+
+<main class="doc">
+  <h1>Soporte</h1>
+  <p class="updated">¿Algo no funciona? Empieza por estas respuestas; si no resuelven tu caso, escríbenos.</p>
+
+  <h2>Contacto</h2>
+  <p>Correo: <a href="mailto:CAMBIA-ESTE-CORREO@ejemplo.com">CAMBIA-ESTE-CORREO@ejemplo.com</a><br>
+  Errores y sugerencias: <a href="https://github.com/ericmargay/Personal_Limits/issues">GitHub Issues</a></p>
+
+  <h2>Problemas habituales</h2>
+  <details open><summary>"La sesión caducó. Vuelve a conectar el proveedor."</summary><p>El proveedor ha invalidado la sesión (por ejemplo tras cambiar la contraseña o pasar varias semanas sin usar la app). Ve a Ajustes → Proveedores → Conectar y vuelve a iniciar sesión.</p></details>
+  <details><summary>El inicio de sesión de Codex falla con "puerto 1455 ocupado".</summary><p>OpenAI exige ese puerto exacto. Cierra otras apps que estén iniciando sesión en Codex y vuelve a intentarlo.</p></details>
+  <details><summary>El widget no cambia.</summary><p>Los widgets se refrescan cada 15–30 min según el presupuesto que asigna iOS. Abre la app para forzar una lectura. Comprueba también que "Actualización en segundo plano" esté activada para Personal Limits en Ajustes del iPhone.</p></details>
+  <details><summary>El Apple Watch dice "Conecta un proveedor en el iPhone".</summary><p>El reloj recibe los datos del iPhone. Abre la app en el iPhone una vez con los proveedores conectados y, en el reloj, pulsa "Pedir datos al iPhone".</p></details>
+  <details><summary>El ESP32 no aparece en "Encontrados en la red".</summary><p>Asegúrate de que el iPhone y el ESP32 están en la misma Wi‑Fi y de que has aceptado el permiso de "Red local" para la app (Ajustes del iPhone → Personal Limits). También puedes escribir la IP o <code>limits.local</code> a mano.</p></details>
+  <details><summary>Veo "Demasiadas consultas".</summary><p>El proveedor limita las lecturas. Espera unos minutos; la app no volverá a consultar hasta entonces.</p></details>
+  <details><summary>¿Cómo cambio mi consentimiento de anuncios?</summary><p>Ajustes → Privacidad y anuncios → Opciones de privacidad de anuncios (visible en el EEE, Reino Unido y Suiza). El permiso de seguimiento se gestiona en Ajustes del iPhone → Privacidad y seguridad → Seguimiento.</p></details>
+
+  <h2>Módulo ESP32</h2>
+  <p>Si compraste el módulo montado, las instrucciones de conexión vienen en la caja. Para el firmware abierto, consulta la <a href="https://github.com/ericmargay/Personal_Limits/tree/master/firmware">documentación en GitHub</a>.</p>
+</main>
+
+<footer><div class="wrap"><div class="foot-links"><a href="./">Inicio</a><a href="privacy.html">Privacidad</a><a href="terms.html">Términos</a><a href="https://github.com/ericmargay/Personal_Limits">GitHub</a></div><p class="legal">© 2026 Personal Limits.</p></div></footer>
+</body>
+</html>

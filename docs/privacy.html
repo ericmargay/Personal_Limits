@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Política de privacidad — Personal Limits</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap nav"><a class="brand" href="./"><span class="logo"></span>Personal Limits</a><nav class="nav-links"><a href="support.html">Soporte</a><a href="terms.html">Términos</a></nav></div></header>
+
+<main class="doc">
+  <h1>Política de privacidad</h1>
+  <p class="updated">Última actualización: 23 de septiembre de 2026</p>
+
+  <div class="callout">Resumen: Personal Limits no tiene servidores propios. Tus tokens y tus lecturas de uso se quedan en tu dispositivo. Lo único que sale de él son las consultas a Anthropic y OpenAI para leer tus límites, y las peticiones de anuncios a Google AdMob.</div>
+
+  <h2>1. Responsable</h2>
+  <p>Personal Limits es una aplicación desarrollada por su autor a título individual. Contacto: <a href="mailto:CAMBIA-ESTE-CORREO@ejemplo.com">CAMBIA-ESTE-CORREO@ejemplo.com</a>.</p>
+
+  <h2>2. Datos que trata la app y dónde se guardan</h2>
+  <ul>
+    <li><strong>Tokens de acceso de Claude y de ChatGPT/Codex.</strong> Se obtienen iniciando sesión en el navegador con el flujo OAuth oficial de cada proveedor y se guardan cifrados en el llavero (Keychain) de tu iPhone o iPad. Nunca se envían a ningún servidor de Personal Limits porque no existe tal servidor.</li>
+    <li><strong>Lecturas de uso</strong> (porcentajes consumidos, fechas de reinicio, nombre del plan y el correo de la cuenta que devuelve el proveedor). Se guardan en el contenedor compartido de la app para que el widget, el Apple Watch y el módulo ESP32 puedan mostrarlas.</li>
+    <li><strong>Ajustes</strong> (por ejemplo la dirección de tu ESP32). Solo en tu dispositivo.</li>
+  </ul>
+  <p>Puedes borrar todo desconectando cada proveedor en Ajustes o desinstalando la app.</p>
+
+  <h2>3. Con quién se comunica la app</h2>
+  <ul>
+    <li><strong>Anthropic</strong> (<code>api.anthropic.com</code>, <code>platform.claude.com</code>): para iniciar sesión y leer tus límites de Claude. El token obtenido queda limitado al permiso <code>user:profile</code> (solo lectura). Se aplica la <a href="https://www.anthropic.com/legal/privacy">política de privacidad de Anthropic</a>.</li>
+    <li><strong>OpenAI</strong> (<code>auth.openai.com</code>, <code>chatgpt.com</code>): para iniciar sesión y leer tus límites de Codex. Se aplica la <a href="https://openai.com/policies/privacy-policy">política de privacidad de OpenAI</a>.</li>
+    <li><strong>Google AdMob</strong>: sirve el banner publicitario de la pantalla principal (ver apartado 4).</li>
+    <li><strong>Tu ESP32</strong> (opcional): si lo activas, la app envía por tu red Wi‑Fi local los porcentajes de uso y el correo de la cuenta al dispositivo que tú indiques. No pasa por Internet.</li>
+  </ul>
+
+  <h2>4. Publicidad</h2>
+  <p>La app es gratuita y muestra un banner de Google AdMob en la pantalla principal (no en los widgets ni en el Apple Watch). Para servirlo, el SDK de Google puede recopilar identificadores del dispositivo (incluido el identificador de publicidad si lo autorizas), datos aproximados de ubicación derivados de la IP, información del dispositivo y datos de interacción con los anuncios. Google trata estos datos conforme a su <a href="https://policies.google.com/privacy">política de privacidad</a> y a la <a href="https://policies.google.com/technologies/partner-sites">información sobre uso de datos por socios</a>.</p>
+  <ul>
+    <li><strong>Seguimiento (ATT).</strong> iOS te preguntará si permites el seguimiento. Si dices que no, seguirás viendo anuncios, pero no personalizados.</li>
+    <li><strong>Consentimiento (EEE, Reino Unido y Suiza).</strong> Al abrir la app se muestra un formulario de consentimiento (Google UMP). Puedes cambiar tu decisión en cualquier momento desde <em>Ajustes → Privacidad y anuncios → Opciones de privacidad de anuncios</em>.</li>
+  </ul>
+
+  <h2>5. Lo que no hacemos</h2>
+  <ul>
+    <li>No creamos cuentas de usuario ni pedimos correo, nombre o contraseña.</li>
+    <li>No enviamos tus tokens ni tus lecturas a ningún servidor propio ni de terceros distintos de los indicados.</li>
+    <li>No leemos tus conversaciones con Claude ni con ChatGPT: los permisos concedidos no lo permiten.</li>
+    <li>No vendemos datos.</li>
+  </ul>
+
+  <h2>6. Conservación</h2>
+  <p>Todo se conserva en tu dispositivo mientras la app esté instalada y el proveedor conectado. Los tokens caducan y se renuevan automáticamente; al desconectar un proveedor se borran de inmediato.</p>
+
+  <h2>7. Tus derechos</h2>
+  <p>Como los datos están únicamente en tu dispositivo, tú los controlas: puedes verlos, borrarlos o dejar de compartirlos en cualquier momento. Para ejercer derechos frente a Google, Anthropic u OpenAI, dirígete a cada uno de ellos. Si tienes cualquier duda, escríbenos al correo del apartado 1.</p>
+
+  <h2>8. Menores</h2>
+  <p>La app no está dirigida a menores de 16 años y no recopila conscientemente datos de menores.</p>
+
+  <h2>9. Cambios</h2>
+  <p>Si esta política cambia, actualizaremos la fecha de esta página y, si el cambio es relevante, lo indicaremos dentro de la app.</p>
+</main>
+
+<footer><div class="wrap"><div class="foot-links"><a href="./">Inicio</a><a href="support.html">Soporte</a><a href="terms.html">Términos</a><a href="https://github.com/ericmargay/Personal_Limits">GitHub</a></div><p class="legal">© 2026 Personal Limits. No afiliada a Anthropic, OpenAI ni Apple.</p></div></footer>
+</body>
+</html>

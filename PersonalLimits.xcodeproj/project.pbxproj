@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0248283290AF3B8CEB9462F5 /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9CCDCC3319863CADCA037 /* UsageModels.swift */; };
+		052854269802DB7C53FDBD5A /* BackgroundRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = F715E974DB10EC7E9A8579F5 /* BackgroundRefresh.swift */; };
+		0590E39538A9D532FD804814 /* UsageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAD3682FEC7373DC652FBD /* UsageProvider.swift */; };
+		0F1AC56D0B31AFE1BF10C6EC /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6D03A10D0F880EFD4625E /* AppConfig.swift */; };
+		16B2CE6FE1B77AF1D2691542 /* WatchDashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE8DC105969B80FB9473F91 /* WatchDashboardView.swift */; };
+		178D5D581F9B71BC3D35DD93 /* ESP32Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D276530221CA36D9E74580 /* ESP32Client.swift */; };
+		1889BF5B0425A94C3FB863D4 /* UsageRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2573F22C9B58130EA6E1F0 /* UsageRefresher.swift */; };
+		1925D45A8AC10143CFB8FE76 /* ESP32Client.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1D276530221CA36D9E74580 /* ESP32Client.swift */; };
+		1AE6DE200B591070A898A603 /* PersonalLimitsWatchWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = F6530D238C240C0115AF87FB /* PersonalLimitsWatchWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1C17B9C2573E358B28BB90C0 /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E62196C0A23489D071984E3 /* OAuthClient.swift */; };
+		25AE7B5AA8D5B70BB7D0EFB8 /* LimitsWidgetViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B3C610243065458B345BA4 /* LimitsWidgetViews.swift */; };
+		339B9AC7EE1F0CADFE68D3D8 /* LoopbackServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C9AA67315BD9D1BAEF084 /* LoopbackServer.swift */; };
+		3BCAC4583734121544D1196F /* UsageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0798749AB4C65A0E36648B /* UsageStyle.swift */; };
+		3D286D7189F672690514B327 /* UsageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0798749AB4C65A0E36648B /* UsageStyle.swift */; };
+		3F90D4973F78F1751672CFFC /* AdBannerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15992E57AB0DADCCEC3FDCC4 /* AdBannerView.swift */; };
+		40EE29A4FA63D637EA1F5E65 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = D79F7A005835FEE343D6D2CA /* PrivacyInfo.xcprivacy */; };
+		41DF3FC6D8ACE413B461B63C /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9CCDCC3319863CADCA037 /* UsageModels.swift */; };
+		42279A2D927A296C502403A6 /* StoreLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39AA405CA4738A3E4BA24587 /* StoreLinks.swift */; };
+		42DA6DCD70617BD0311F7868 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72D7A700FA6D2597F767871C /* Assets.xcassets */; };
+		45134917E990463F0D6D9643 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6D03A10D0F880EFD4625E /* AppConfig.swift */; };
+		4921A4F6793694C6472666D2 /* PersonalLimitsWatchWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FD4761642EFCE8EF2784C2 /* PersonalLimitsWatchWidgetBundle.swift */; };
+		4B25CA9C261FB50F52917695 /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E17B69AEF73AE8A4EDCC09A /* HTTP.swift */; };
+		4C6C395FE0297FD066CF94D5 /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EAC23751339D38ADEA64091 /* WatchSessionManager.swift */; };
+		515FE7D3ED7EA315CC7CB499 /* LimitsWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A94848933C0119F17D1448A /* LimitsWidget.swift */; };
+		556685722205EF21B905BA0C /* ClaudeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66791BCBEAE9EDE0EFAC8F /* ClaudeProvider.swift */; };
+		5621C07E8731802345F424ED /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3BC50CB7260FCFC9416D1 /* SharedStore.swift */; };
+		5A9D9DB4D07AA2F62F95A8B3 /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9CCDCC3319863CADCA037 /* UsageModels.swift */; };
+		5B762E9BE4728F75136EB4F1 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6D03A10D0F880EFD4625E /* AppConfig.swift */; };
+		5CEF8094E5B72A44792276E6 /* UsageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0798749AB4C65A0E36648B /* UsageStyle.swift */; };
+		5DACF63869F2E4EBF1AC5EA3 /* LimitsComplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A057D29F98F887EFD446289 /* LimitsComplication.swift */; };
+		5F9D948A21599CB4CFF009EB /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = B4B2DD37E08128022EB2BA81 /* PrivacyInfo.xcprivacy */; };
+		5FAF7F51591A42E14434EDED /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3EB6D03A10D0F880EFD4625E /* AppConfig.swift */; };
+		6073E3BAB250A5CDCCF5A460 /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16090749A38F62218FEF887A /* Credential.swift */; };
+		6DC280C9AAB1FDBACD72C136 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = A6282F96148D89FD9DD8C853 /* PrivacyInfo.xcprivacy */; };
+		6EA7FAD51513794CC77B9EA4 /* ProviderSignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDA2924160E067E63191206 /* ProviderSignIn.swift */; };
+		7139E8B57F667D8775492C62 /* AdsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5988752C1764C199F666352 /* AdsManager.swift */; };
+		734704EB066A730A0FFE23AC /* UsageStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC0798749AB4C65A0E36648B /* UsageStyle.swift */; };
+		7711593F006E08AC3A04F346 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5921DB4F58127B4D536B92F7 /* Assets.xcassets */; };
+		77917BF81442C75C88756FA4 /* ManualImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE177789C822D32F91B5A787 /* ManualImportView.swift */; };
+		7C2AF03335A90FEA8565918D /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F78701ED1AC312E36B846E /* JWT.swift */; };
+		7D1C40C88B3324903463DAB0 /* WatchBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4526E75B3A7E49E726CCEE79 /* WatchBridge.swift */; };
+		8CECC09B55A231D0DF78F380 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D0A79C6FEE76E8773CD9B29 /* DashboardView.swift */; };
+		8E6962197E66BC47FCDFD799 /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3BC50CB7260FCFC9416D1 /* SharedStore.swift */; };
+		9161398680B4FB8C71902C8C /* PersonalLimitsWatch.app in Embed Dependencies */ = {isa = PBXBuildFile; fileRef = 081262D524EA9EA141BAF200 /* PersonalLimitsWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		924093552DC875A367F8029B /* DeviceDiscovery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EC163063D2ADBEA6E6C49 /* DeviceDiscovery.swift */; };
+		96A6A9B94F1D3F43A74FDEC5 /* GoogleUserMessagingPlatform in Frameworks */ = {isa = PBXBuildFile; productRef = 117E24B6D8CC75AA04E312FD /* GoogleUserMessagingPlatform */; };
+		96B348C9032A8FA79A373CD3 /* PersonalLimitsWidget.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = C600FD1A1B741AE08F11BEBE /* PersonalLimitsWidget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		974548F0BC3C683E4D78003C /* PersonalLimitsWatchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84B858E7DA63F93CBCFEB0C3 /* PersonalLimitsWatchApp.swift */; };
+		988EB051F693045494E484D1 /* ProviderCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E55B170B733DEB34C2173A /* ProviderCardView.swift */; };
+		9CD7F28A86E4069F14684F0E /* CredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8760F8F3A59B5751730F6E6 /* CredentialStore.swift */; };
+		9FD5B7B5E02AC51C2FC78CEC /* UsageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8BAD3682FEC7373DC652FBD /* UsageProvider.swift */; };
+		A8761F63E202091297ABA6E6 /* LoopbackServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 241C9AA67315BD9D1BAEF084 /* LoopbackServer.swift */; };
+		ABB6BA3D57C128523EDA0B9E /* UsageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 563396351AB62318B24374F2 /* UsageStore.swift */; };
+		B1BCA49B3C8AE089CD770716 /* CredentialStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8760F8F3A59B5751730F6E6 /* CredentialStore.swift */; };
+		B31091F6C8D215C1EB19E5D0 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = CAAD563C0793F3396CD007F1 /* PrivacyInfo.xcprivacy */; };
+		B386BE0D35DE9D81B51BF4CB /* PersonalLimitsWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40D2E252A3A3CAD13B6B3685 /* PersonalLimitsWidgetBundle.swift */; };
+		B674CC3B8C09D7E2F57A8BD4 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B974EBE9771B6DDB2D09434F /* SettingsView.swift */; };
+		B7B241D1A8CABDEE52777B8D /* PersonalLimitsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AAF8169697E10C6F396C830 /* PersonalLimitsApp.swift */; };
+		C205EC92044BF38DAA077571 /* WindowGaugeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0C5BB55D8AAC58381D81F07 /* WindowGaugeView.swift */; };
+		C3962E177CC71060E6EBBDCA /* OAuthClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E62196C0A23489D071984E3 /* OAuthClient.swift */; };
+		C494695A27227EDF28D9A65F /* HTTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E17B69AEF73AE8A4EDCC09A /* HTTP.swift */; };
+		C50BBE7CFA8D63ED4743576C /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3BC50CB7260FCFC9416D1 /* SharedStore.swift */; };
+		C888412C6440B8FD161E0CFE /* Credential.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16090749A38F62218FEF887A /* Credential.swift */; };
+		CD1CB144C906737D65D2EE89 /* DeviceSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDFA1672903CE9444D09E4FA /* DeviceSettingsView.swift */; };
+		CFB9D92838A4409CF1CA2227 /* CredentialImporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 587DFD9B0C65FF206AA3A22E /* CredentialImporter.swift */; };
+		D01442F73234E66795734BEF /* SharedStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28E3BC50CB7260FCFC9416D1 /* SharedStore.swift */; };
+		D2D4E475A6C47769C0601700 /* JWT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65F78701ED1AC312E36B846E /* JWT.swift */; };
+		D686778F86DC73B701528E55 /* CodexProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197B49606EB38A37C6086B6 /* CodexProvider.swift */; };
+		D7F6E4D737CC0A11BD1F2596 /* CodexProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F197B49606EB38A37C6086B6 /* CodexProvider.swift */; };
+		E1FF13160AAA3F7F4216DAAC /* GoogleMobileAds in Frameworks */ = {isa = PBXBuildFile; productRef = 1376C555C5B2DE96B0B12409 /* GoogleMobileAds */; };
+		E61BD8BC29CFD119C2BD2A6E /* ClaudeProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B66791BCBEAE9EDE0EFAC8F /* ClaudeProvider.swift */; };
+		E79305243D7F170DADB50E7C /* AdsConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = A809169378AFC965099DB2DB /* AdsConfig.swift */; };
+		E7F6CD950B5372B765958509 /* UsageRefresher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F2573F22C9B58130EA6E1F0 /* UsageRefresher.swift */; };
+		EE4BFCBC0432FDFA9E856D6B /* UsageModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7F9CCDCC3319863CADCA037 /* UsageModels.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		058E7EAB87888469E8C5D853 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C161B85A538265C72F67FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 380C4694353C61613A12FFE3;
+			remoteInfo = PersonalLimitsWidget;
+		};
+		23210C708D008A049AFBB530 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C161B85A538265C72F67FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B7F412F0DF24671CEB3A5865;
+			remoteInfo = PersonalLimitsWatch;
+		};
+		877F70036105482BA4F4BE8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C5C161B85A538265C72F67FF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B1BA603ED506F88EFA932EE;
+			remoteInfo = PersonalLimitsWatchWidget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF8B4E32E732D811C4C0BA27 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				96B348C9032A8FA79A373CD3 /* PersonalLimitsWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D237D80B78EB022003E8953C /* Embed Dependencies */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				9161398680B4FB8C71902C8C /* PersonalLimitsWatch.app in Embed Dependencies */,
+			);
+			name = "Embed Dependencies";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E140CA2E1DE0BF2813BC9947 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1AE6DE200B591070A898A603 /* PersonalLimitsWatchWidget.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		081262D524EA9EA141BAF200 /* PersonalLimitsWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalLimitsWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		09E55B170B733DEB34C2173A /* ProviderCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderCardView.swift; sourceTree = "<group>"; };
+		15992E57AB0DADCCEC3FDCC4 /* AdBannerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdBannerView.swift; sourceTree = "<group>"; };
+		16090749A38F62218FEF887A /* Credential.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Credential.swift; sourceTree = "<group>"; };
+		241C9AA67315BD9D1BAEF084 /* LoopbackServer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopbackServer.swift; sourceTree = "<group>"; };
+		28E3BC50CB7260FCFC9416D1 /* SharedStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedStore.swift; sourceTree = "<group>"; };
+		2BA1FB6B77F4A68489C7B4E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		39AA405CA4738A3E4BA24587 /* StoreLinks.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreLinks.swift; sourceTree = "<group>"; };
+		3EB6D03A10D0F880EFD4625E /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
+		40D2E252A3A3CAD13B6B3685 /* PersonalLimitsWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLimitsWidgetBundle.swift; sourceTree = "<group>"; };
+		4526E75B3A7E49E726CCEE79 /* WatchBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchBridge.swift; sourceTree = "<group>"; };
+		4A057D29F98F887EFD446289 /* LimitsComplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitsComplication.swift; sourceTree = "<group>"; };
+		4B66791BCBEAE9EDE0EFAC8F /* ClaudeProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaudeProvider.swift; sourceTree = "<group>"; };
+		4EAC23751339D38ADEA64091 /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
+		4F2573F22C9B58130EA6E1F0 /* UsageRefresher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageRefresher.swift; sourceTree = "<group>"; };
+		563396351AB62318B24374F2 /* UsageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStore.swift; sourceTree = "<group>"; };
+		587DFD9B0C65FF206AA3A22E /* CredentialImporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialImporter.swift; sourceTree = "<group>"; };
+		5921DB4F58127B4D536B92F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5D0A79C6FEE76E8773CD9B29 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		65F78701ED1AC312E36B846E /* JWT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JWT.swift; sourceTree = "<group>"; };
+		6A693093E7DD5DD7981F7BFA /* PersonalLimitsWatchWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalLimitsWatchWidget.entitlements; sourceTree = "<group>"; };
+		6AAF8169697E10C6F396C830 /* PersonalLimitsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLimitsApp.swift; sourceTree = "<group>"; };
+		6DF2D60877F3869D1899AFEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		6E62196C0A23489D071984E3 /* OAuthClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OAuthClient.swift; sourceTree = "<group>"; };
+		72D7A700FA6D2597F767871C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82E8720CA0FAFC684D0D3E05 /* PersonalLimits.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalLimits.entitlements; sourceTree = "<group>"; };
+		84B858E7DA63F93CBCFEB0C3 /* PersonalLimitsWatchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLimitsWatchApp.swift; sourceTree = "<group>"; };
+		86B3C610243065458B345BA4 /* LimitsWidgetViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitsWidgetViews.swift; sourceTree = "<group>"; };
+		895EC163063D2ADBEA6E6C49 /* DeviceDiscovery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceDiscovery.swift; sourceTree = "<group>"; };
+		89FD4761642EFCE8EF2784C2 /* PersonalLimitsWatchWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalLimitsWatchWidgetBundle.swift; sourceTree = "<group>"; };
+		8E17B69AEF73AE8A4EDCC09A /* HTTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTP.swift; sourceTree = "<group>"; };
+		9A94848933C0119F17D1448A /* LimitsWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LimitsWidget.swift; sourceTree = "<group>"; };
+		A6282F96148D89FD9DD8C853 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		A809169378AFC965099DB2DB /* AdsConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsConfig.swift; sourceTree = "<group>"; };
+		A8BAD3682FEC7373DC652FBD /* UsageProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageProvider.swift; sourceTree = "<group>"; };
+		B1D276530221CA36D9E74580 /* ESP32Client.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ESP32Client.swift; sourceTree = "<group>"; };
+		B4B2DD37E08128022EB2BA81 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		B5988752C1764C199F666352 /* AdsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdsManager.swift; sourceTree = "<group>"; };
+		B8760F8F3A59B5751730F6E6 /* CredentialStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CredentialStore.swift; sourceTree = "<group>"; };
+		B974EBE9771B6DDB2D09434F /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		BC0798749AB4C65A0E36648B /* UsageStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageStyle.swift; sourceTree = "<group>"; };
+		BD248B71A6E14055ADD2CF15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BDFA1672903CE9444D09E4FA /* DeviceSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeviceSettingsView.swift; sourceTree = "<group>"; };
+		C52C0F29E1519749732FC5F6 /* PersonalLimits.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = PersonalLimits.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C600FD1A1B741AE08F11BEBE /* PersonalLimitsWidget.appex */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = "wrapper.app-extension"; path = PersonalLimitsWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		CAAD563C0793F3396CD007F1 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		D115D7753BDFC2E8C5733C3D /* PersonalLimitsWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalLimitsWatch.entitlements; sourceTree = "<group>"; };
+		D79F7A005835FEE343D6D2CA /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		DA06263D63FFDFCF24101080 /* PersonalLimitsWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PersonalLimitsWidget.entitlements; sourceTree = "<group>"; };
+		DAE8DC105969B80FB9473F91 /* WatchDashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchDashboardView.swift; sourceTree = "<group>"; };
+		DFDA2924160E067E63191206 /* ProviderSignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProviderSignIn.swift; sourceTree = "<group>"; };
+		EE177789C822D32F91B5A787 /* ManualImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManualImportView.swift; sourceTree = "<group>"; };
+		F0C5BB55D8AAC58381D81F07 /* WindowGaugeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowGaugeView.swift; sourceTree = "<group>"; };
+		F197B49606EB38A37C6086B6 /* CodexProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodexProvider.swift; sourceTree = "<group>"; };
+		F6530D238C240C0115AF87FB /* PersonalLimitsWatchWidget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = PersonalLimitsWatchWidget.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		F715E974DB10EC7E9A8579F5 /* BackgroundRefresh.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundRefresh.swift; sourceTree = "<group>"; };
+		F7F9CCDCC3319863CADCA037 /* UsageModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsageModels.swift; sourceTree = "<group>"; };
+		FA345C19846CBD0051FD3247 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0539993C9660D363937FFE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1FF13160AAA3F7F4216DAAC /* GoogleMobileAds in Frameworks */,
+				96A6A9B94F1D3F43A74FDEC5 /* GoogleUserMessagingPlatform in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F77EFFCC60482A2D9AAD982 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5D0A79C6FEE76E8773CD9B29 /* DashboardView.swift */,
+				BDFA1672903CE9444D09E4FA /* DeviceSettingsView.swift */,
+				EE177789C822D32F91B5A787 /* ManualImportView.swift */,
+				09E55B170B733DEB34C2173A /* ProviderCardView.swift */,
+				B974EBE9771B6DDB2D09434F /* SettingsView.swift */,
+				F0C5BB55D8AAC58381D81F07 /* WindowGaugeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		356F2D77A6021B2FE83F7E14 /* WatchWidget */ = {
+			isa = PBXGroup;
+			children = (
+				2BA1FB6B77F4A68489C7B4E2 /* Info.plist */,
+				4A057D29F98F887EFD446289 /* LimitsComplication.swift */,
+				6A693093E7DD5DD7981F7BFA /* PersonalLimitsWatchWidget.entitlements */,
+				89FD4761642EFCE8EF2784C2 /* PersonalLimitsWatchWidgetBundle.swift */,
+				B4B2DD37E08128022EB2BA81 /* PrivacyInfo.xcprivacy */,
+			);
+			path = WatchWidget;
+			sourceTree = "<group>";
+		};
+		46D1176F189B60FBAA356543 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				16090749A38F62218FEF887A /* Credential.swift */,
+				B8760F8F3A59B5751730F6E6 /* CredentialStore.swift */,
+				28E3BC50CB7260FCFC9416D1 /* SharedStore.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		5A48A10349AAD83D36C7D6AD /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				72D7A700FA6D2597F767871C /* Assets.xcassets */,
+				BD248B71A6E14055ADD2CF15 /* Info.plist */,
+				D115D7753BDFC2E8C5733C3D /* PersonalLimitsWatch.entitlements */,
+				84B858E7DA63F93CBCFEB0C3 /* PersonalLimitsWatchApp.swift */,
+				CAAD563C0793F3396CD007F1 /* PrivacyInfo.xcprivacy */,
+				DAE8DC105969B80FB9473F91 /* WatchDashboardView.swift */,
+				4EAC23751339D38ADEA64091 /* WatchSessionManager.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		5C156E17DB0C828A5493F927 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3EB6D03A10D0F880EFD4625E /* AppConfig.swift */,
+				4F2573F22C9B58130EA6E1F0 /* UsageRefresher.swift */,
+				C63DB34C4F032595D468BEDA /* Auth */,
+				C1F8447CD880BA48282690F6 /* Device */,
+				AD07477D8AF35F24885D6B2B /* Models */,
+				9C34034543A51899A40006C7 /* Networking */,
+				B1049101C8EF835C6C0698EE /* Providers */,
+				46D1176F189B60FBAA356543 /* Storage */,
+				D74E1D27AB90D8F7910F4B75 /* UI */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		61D1AD40B19B300A8AD0EBF4 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5921DB4F58127B4D536B92F7 /* Assets.xcassets */,
+				F715E974DB10EC7E9A8579F5 /* BackgroundRefresh.swift */,
+				6DF2D60877F3869D1899AFEC /* Info.plist */,
+				82E8720CA0FAFC684D0D3E05 /* PersonalLimits.entitlements */,
+				6AAF8169697E10C6F396C830 /* PersonalLimitsApp.swift */,
+				D79F7A005835FEE343D6D2CA /* PrivacyInfo.xcprivacy */,
+				563396351AB62318B24374F2 /* UsageStore.swift */,
+				A6D942780331556AFE620649 /* Ads */,
+				79DD0DD3568294E0D2178F75 /* Auth */,
+				C7828C2813497480C33ECA55 /* Device */,
+				DC72032FC554171C53CD75FF /* Import */,
+				AA8E5FAE6506676F8890F209 /* Store */,
+				2F77EFFCC60482A2D9AAD982 /* Views */,
+				68276793EA91EE8F39E4B023 /* Watch */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		68276793EA91EE8F39E4B023 /* Watch */ = {
+			isa = PBXGroup;
+			children = (
+				4526E75B3A7E49E726CCEE79 /* WatchBridge.swift */,
+			);
+			path = Watch;
+			sourceTree = "<group>";
+		};
+		75B3F49AF11264F5571D7187 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C52C0F29E1519749732FC5F6 /* PersonalLimits.app */,
+				081262D524EA9EA141BAF200 /* PersonalLimitsWatch.app */,
+				F6530D238C240C0115AF87FB /* PersonalLimitsWatchWidget.appex */,
+				C600FD1A1B741AE08F11BEBE /* PersonalLimitsWidget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		79DD0DD3568294E0D2178F75 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				DFDA2924160E067E63191206 /* ProviderSignIn.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		9C34034543A51899A40006C7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				8E17B69AEF73AE8A4EDCC09A /* HTTP.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		A6D942780331556AFE620649 /* Ads */ = {
+			isa = PBXGroup;
+			children = (
+				15992E57AB0DADCCEC3FDCC4 /* AdBannerView.swift */,
+				A809169378AFC965099DB2DB /* AdsConfig.swift */,
+				B5988752C1764C199F666352 /* AdsManager.swift */,
+			);
+			path = Ads;
+			sourceTree = "<group>";
+		};
+		AA8E5FAE6506676F8890F209 /* Store */ = {
+			isa = PBXGroup;
+			children = (
+				39AA405CA4738A3E4BA24587 /* StoreLinks.swift */,
+			);
+			path = Store;
+			sourceTree = "<group>";
+		};
+		AD07477D8AF35F24885D6B2B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F7F9CCDCC3319863CADCA037 /* UsageModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1049101C8EF835C6C0698EE /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				4B66791BCBEAE9EDE0EFAC8F /* ClaudeProvider.swift */,
+				F197B49606EB38A37C6086B6 /* CodexProvider.swift */,
+				A8BAD3682FEC7373DC652FBD /* UsageProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		B246795E69E9F50C4CEF1E20 = {
+			isa = PBXGroup;
+			children = (
+				61D1AD40B19B300A8AD0EBF4 /* App */,
+				5C156E17DB0C828A5493F927 /* Shared */,
+				5A48A10349AAD83D36C7D6AD /* Watch */,
+				356F2D77A6021B2FE83F7E14 /* WatchWidget */,
+				B2CF3A5277BF7F35B06F5E9C /* Widget */,
+				75B3F49AF11264F5571D7187 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B2CF3A5277BF7F35B06F5E9C /* Widget */ = {
+			isa = PBXGroup;
+			children = (
+				FA345C19846CBD0051FD3247 /* Info.plist */,
+				9A94848933C0119F17D1448A /* LimitsWidget.swift */,
+				86B3C610243065458B345BA4 /* LimitsWidgetViews.swift */,
+				DA06263D63FFDFCF24101080 /* PersonalLimitsWidget.entitlements */,
+				40D2E252A3A3CAD13B6B3685 /* PersonalLimitsWidgetBundle.swift */,
+				A6282F96148D89FD9DD8C853 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Widget;
+			sourceTree = "<group>";
+		};
+		C1F8447CD880BA48282690F6 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				B1D276530221CA36D9E74580 /* ESP32Client.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		C63DB34C4F032595D468BEDA /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				65F78701ED1AC312E36B846E /* JWT.swift */,
+				241C9AA67315BD9D1BAEF084 /* LoopbackServer.swift */,
+				6E62196C0A23489D071984E3 /* OAuthClient.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		C7828C2813497480C33ECA55 /* Device */ = {
+			isa = PBXGroup;
+			children = (
+				895EC163063D2ADBEA6E6C49 /* DeviceDiscovery.swift */,
+			);
+			path = Device;
+			sourceTree = "<group>";
+		};
+		D74E1D27AB90D8F7910F4B75 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				BC0798749AB4C65A0E36648B /* UsageStyle.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		DC72032FC554171C53CD75FF /* Import */ = {
+			isa = PBXGroup;
+			children = (
+				587DFD9B0C65FF206AA3A22E /* CredentialImporter.swift */,
+			);
+			path = Import;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B1BA603ED506F88EFA932EE /* PersonalLimitsWatchWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A665A7022ED03425F48D99E6 /* Build configuration list for PBXNativeTarget "PersonalLimitsWatchWidget" */;
+			buildPhases = (
+				CA96BF66216E854DA14D1594 /* Sources */,
+				8D8AA72A77B1A980D00AF035 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalLimitsWatchWidget;
+			packageProductDependencies = (
+			);
+			productName = PersonalLimitsWatchWidget;
+			productReference = F6530D238C240C0115AF87FB /* PersonalLimitsWatchWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		380C4694353C61613A12FFE3 /* PersonalLimitsWidget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C540857296C068AD8C9999B /* Build configuration list for PBXNativeTarget "PersonalLimitsWidget" */;
+			buildPhases = (
+				86FF85B9A1E67B2E7C7D3A32 /* Sources */,
+				C458A342B70E3EBAC9E46A55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalLimitsWidget;
+			packageProductDependencies = (
+			);
+			productName = PersonalLimitsWidget;
+			productReference = C600FD1A1B741AE08F11BEBE /* PersonalLimitsWidget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B7F412F0DF24671CEB3A5865 /* PersonalLimitsWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 733E23AE47DB9706D12AD70E /* Build configuration list for PBXNativeTarget "PersonalLimitsWatch" */;
+			buildPhases = (
+				D7172D4E4F5633967DB5920F /* Sources */,
+				199903327B4C9F6540BB4CAD /* Resources */,
+				E140CA2E1DE0BF2813BC9947 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D2A0CA8ED86BAD671716206 /* PBXTargetDependency */,
+			);
+			name = PersonalLimitsWatch;
+			packageProductDependencies = (
+			);
+			productName = PersonalLimitsWatch;
+			productReference = 081262D524EA9EA141BAF200 /* PersonalLimitsWatch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9E90E4542AC030843D4189F /* PersonalLimits */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CA575E51616CD53DCF0A7D2 /* Build configuration list for PBXNativeTarget "PersonalLimits" */;
+			buildPhases = (
+				69EE401385A9A93E41550F67 /* Sources */,
+				410EA1966240D9A7E88801CE /* Resources */,
+				A0539993C9660D363937FFE5 /* Frameworks */,
+				BF8B4E32E732D811C4C0BA27 /* Embed Foundation Extensions */,
+				D237D80B78EB022003E8953C /* Embed Dependencies */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				215CC68177C3DA2459C70FDD /* PBXTargetDependency */,
+				68D670EF48CCB36E08DD371A /* PBXTargetDependency */,
+			);
+			name = PersonalLimits;
+			packageProductDependencies = (
+				1376C555C5B2DE96B0B12409 /* GoogleMobileAds */,
+				117E24B6D8CC75AA04E312FD /* GoogleUserMessagingPlatform */,
+			);
+			productName = PersonalLimits;
+			productReference = C52C0F29E1519749732FC5F6 /* PersonalLimits.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C5C161B85A538265C72F67FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					0B1BA603ED506F88EFA932EE = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					380C4694353C61613A12FFE3 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B7F412F0DF24671CEB3A5865 = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+					B9E90E4542AC030843D4189F = {
+						DevelopmentTeam = "";
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E1E6E4283C760A77A827E23F /* Build configuration list for PBXProject "PersonalLimits" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = B246795E69E9F50C4CEF1E20;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				0CA030E36BE0C610CCB2C4C0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */,
+				74EB07F34527263426C20D50 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 75B3F49AF11264F5571D7187 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9E90E4542AC030843D4189F /* PersonalLimits */,
+				380C4694353C61613A12FFE3 /* PersonalLimitsWidget */,
+				B7F412F0DF24671CEB3A5865 /* PersonalLimitsWatch */,
+				0B1BA603ED506F88EFA932EE /* PersonalLimitsWatchWidget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		199903327B4C9F6540BB4CAD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42DA6DCD70617BD0311F7868 /* Assets.xcassets in Resources */,
+				B31091F6C8D215C1EB19E5D0 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		410EA1966240D9A7E88801CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7711593F006E08AC3A04F346 /* Assets.xcassets in Resources */,
+				40EE29A4FA63D637EA1F5E65 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D8AA72A77B1A980D00AF035 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9D948A21599CB4CFF009EB /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C458A342B70E3EBAC9E46A55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DC280C9AAB1FDBACD72C136 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		69EE401385A9A93E41550F67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F90D4973F78F1751672CFFC /* AdBannerView.swift in Sources */,
+				E79305243D7F170DADB50E7C /* AdsConfig.swift in Sources */,
+				7139E8B57F667D8775492C62 /* AdsManager.swift in Sources */,
+				0F1AC56D0B31AFE1BF10C6EC /* AppConfig.swift in Sources */,
+				052854269802DB7C53FDBD5A /* BackgroundRefresh.swift in Sources */,
+				556685722205EF21B905BA0C /* ClaudeProvider.swift in Sources */,
+				D686778F86DC73B701528E55 /* CodexProvider.swift in Sources */,
+				6073E3BAB250A5CDCCF5A460 /* Credential.swift in Sources */,
+				CFB9D92838A4409CF1CA2227 /* CredentialImporter.swift in Sources */,
+				9CD7F28A86E4069F14684F0E /* CredentialStore.swift in Sources */,
+				8CECC09B55A231D0DF78F380 /* DashboardView.swift in Sources */,
+				924093552DC875A367F8029B /* DeviceDiscovery.swift in Sources */,
+				CD1CB144C906737D65D2EE89 /* DeviceSettingsView.swift in Sources */,
+				178D5D581F9B71BC3D35DD93 /* ESP32Client.swift in Sources */,
+				C494695A27227EDF28D9A65F /* HTTP.swift in Sources */,
+				7C2AF03335A90FEA8565918D /* JWT.swift in Sources */,
+				339B9AC7EE1F0CADFE68D3D8 /* LoopbackServer.swift in Sources */,
+				77917BF81442C75C88756FA4 /* ManualImportView.swift in Sources */,
+				C3962E177CC71060E6EBBDCA /* OAuthClient.swift in Sources */,
+				B7B241D1A8CABDEE52777B8D /* PersonalLimitsApp.swift in Sources */,
+				988EB051F693045494E484D1 /* ProviderCardView.swift in Sources */,
+				6EA7FAD51513794CC77B9EA4 /* ProviderSignIn.swift in Sources */,
+				B674CC3B8C09D7E2F57A8BD4 /* SettingsView.swift in Sources */,
+				C50BBE7CFA8D63ED4743576C /* SharedStore.swift in Sources */,
+				42279A2D927A296C502403A6 /* StoreLinks.swift in Sources */,
+				EE4BFCBC0432FDFA9E856D6B /* UsageModels.swift in Sources */,
+				9FD5B7B5E02AC51C2FC78CEC /* UsageProvider.swift in Sources */,
+				E7F6CD950B5372B765958509 /* UsageRefresher.swift in Sources */,
+				ABB6BA3D57C128523EDA0B9E /* UsageStore.swift in Sources */,
+				5CEF8094E5B72A44792276E6 /* UsageStyle.swift in Sources */,
+				7D1C40C88B3324903463DAB0 /* WatchBridge.swift in Sources */,
+				C205EC92044BF38DAA077571 /* WindowGaugeView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86FF85B9A1E67B2E7C7D3A32 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45134917E990463F0D6D9643 /* AppConfig.swift in Sources */,
+				E61BD8BC29CFD119C2BD2A6E /* ClaudeProvider.swift in Sources */,
+				D7F6E4D737CC0A11BD1F2596 /* CodexProvider.swift in Sources */,
+				C888412C6440B8FD161E0CFE /* Credential.swift in Sources */,
+				B1BCA49B3C8AE089CD770716 /* CredentialStore.swift in Sources */,
+				1925D45A8AC10143CFB8FE76 /* ESP32Client.swift in Sources */,
+				4B25CA9C261FB50F52917695 /* HTTP.swift in Sources */,
+				D2D4E475A6C47769C0601700 /* JWT.swift in Sources */,
+				515FE7D3ED7EA315CC7CB499 /* LimitsWidget.swift in Sources */,
+				25AE7B5AA8D5B70BB7D0EFB8 /* LimitsWidgetViews.swift in Sources */,
+				A8761F63E202091297ABA6E6 /* LoopbackServer.swift in Sources */,
+				1C17B9C2573E358B28BB90C0 /* OAuthClient.swift in Sources */,
+				B386BE0D35DE9D81B51BF4CB /* PersonalLimitsWidgetBundle.swift in Sources */,
+				D01442F73234E66795734BEF /* SharedStore.swift in Sources */,
+				0248283290AF3B8CEB9462F5 /* UsageModels.swift in Sources */,
+				0590E39538A9D532FD804814 /* UsageProvider.swift in Sources */,
+				1889BF5B0425A94C3FB863D4 /* UsageRefresher.swift in Sources */,
+				3BCAC4583734121544D1196F /* UsageStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA96BF66216E854DA14D1594 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FAF7F51591A42E14434EDED /* AppConfig.swift in Sources */,
+				5DACF63869F2E4EBF1AC5EA3 /* LimitsComplication.swift in Sources */,
+				4921A4F6793694C6472666D2 /* PersonalLimitsWatchWidgetBundle.swift in Sources */,
+				8E6962197E66BC47FCDFD799 /* SharedStore.swift in Sources */,
+				41DF3FC6D8ACE413B461B63C /* UsageModels.swift in Sources */,
+				734704EB066A730A0FFE23AC /* UsageStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7172D4E4F5633967DB5920F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B762E9BE4728F75136EB4F1 /* AppConfig.swift in Sources */,
+				974548F0BC3C683E4D78003C /* PersonalLimitsWatchApp.swift in Sources */,
+				5621C07E8731802345F424ED /* SharedStore.swift in Sources */,
+				5A9D9DB4D07AA2F62F95A8B3 /* UsageModels.swift in Sources */,
+				3D286D7189F672690514B327 /* UsageStyle.swift in Sources */,
+				16B2CE6FE1B77AF1D2691542 /* WatchDashboardView.swift in Sources */,
+				4C6C395FE0297FD066CF94D5 /* WatchSessionManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1D2A0CA8ED86BAD671716206 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B1BA603ED506F88EFA932EE /* PersonalLimitsWatchWidget */;
+			targetProxy = 877F70036105482BA4F4BE8A /* PBXContainerItemProxy */;
+		};
+		215CC68177C3DA2459C70FDD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 380C4694353C61613A12FFE3 /* PersonalLimitsWidget */;
+			targetProxy = 058E7EAB87888469E8C5D853 /* PBXContainerItemProxy */;
+		};
+		68D670EF48CCB36E08DD371A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B7F412F0DF24671CEB3A5865 /* PersonalLimitsWatch */;
+			targetProxy = 23210C708D008A049AFBB530 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B340B5B3406BF1C6780BF40 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		56C772E8ED4C9ABEBC2620E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/PersonalLimitsWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Personal Limits";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5BBBB14EBF01090613AD476A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WatchWidget/PersonalLimitsWatchWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Personal Limits";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits.watchkitapp.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		5CD65097E4D4A2C4D108933D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watch/PersonalLimitsWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Debug;
+		};
+		816580E609720FEF483863E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/PersonalLimits.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9DE3B95EEC3C8E263BF14FD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = Widget/PersonalLimitsWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Personal Limits";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits.widget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C1FBE22FDDAADC41B55AC36E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = App/PersonalLimits.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = App/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CB831DF1FC62C2C71FA48570 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = WatchWidget/PersonalLimitsWatchWidget.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = WatchWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Personal Limits";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits.watchkitapp.widget;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		E36065B3C03413F802547071 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Watch/PersonalLimitsWatch.entitlements;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ericmargay.personallimits.watchkitapp;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+			};
+			name = Release;
+		};
+		F15EE71A846AF064DACF37D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_STRICT_CONCURRENCY = minimal;
+				SWIFT_VERSION = 5.0;
+				WATCHOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C540857296C068AD8C9999B /* Build configuration list for PBXNativeTarget "PersonalLimitsWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9DE3B95EEC3C8E263BF14FD7 /* Debug */,
+				56C772E8ED4C9ABEBC2620E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		733E23AE47DB9706D12AD70E /* Build configuration list for PBXNativeTarget "PersonalLimitsWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CD65097E4D4A2C4D108933D /* Debug */,
+				E36065B3C03413F802547071 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7CA575E51616CD53DCF0A7D2 /* Build configuration list for PBXNativeTarget "PersonalLimits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1FBE22FDDAADC41B55AC36E /* Debug */,
+				816580E609720FEF483863E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		A665A7022ED03425F48D99E6 /* Build configuration list for PBXNativeTarget "PersonalLimitsWatchWidget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BBBB14EBF01090613AD476A /* Debug */,
+				CB831DF1FC62C2C71FA48570 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		E1E6E4283C760A77A827E23F /* Build configuration list for PBXProject "PersonalLimits" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B340B5B3406BF1C6780BF40 /* Debug */,
+				F15EE71A846AF064DACF37D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		0CA030E36BE0C610CCB2C4C0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-mobile-ads.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 13.0.0;
+			};
+		};
+		74EB07F34527263426C20D50 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/googleads/swift-package-manager-google-user-messaging-platform.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		117E24B6D8CC75AA04E312FD /* GoogleUserMessagingPlatform */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 74EB07F34527263426C20D50 /* XCRemoteSwiftPackageReference "swift-package-manager-google-user-messaging-platform" */;
+			productName = GoogleUserMessagingPlatform;
+		};
+		1376C555C5B2DE96B0B12409 /* GoogleMobileAds */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 0CA030E36BE0C610CCB2C4C0 /* XCRemoteSwiftPackageReference "swift-package-manager-google-mobile-ads" */;
+			productName = GoogleMobileAds;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = C5C161B85A538265C72F67FF /* Project object */;
+}
